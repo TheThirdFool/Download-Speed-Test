@@ -7,6 +7,7 @@ crontab -e
 
 And then including an edited version of this code:
 
+```
 # =====================================================================================
 # Example of job definition:
 # .---------------- minute (0 - 59)
@@ -20,9 +21,10 @@ And then including an edited version of this code:
 */30 * * * * python /Path/To/SpeedTest.py
 #*/2 * * * * echo "Doing a test"
 # =====================================================================================
+```
 
 To visualise the data, run the second script:
 
-python3 VisualiseSpeedTest.py
+python3 VisualiseSpeedTests.py
 
 Enjoy.
